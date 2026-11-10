@@ -1,0 +1,242 @@
+pre {
+  font-family: system-ui, -apple-system, sans-serif; /* Quita la fuente monoespaciada */
+  white-space: pre-wrap; /* Hace que el texto salte de línea automáticamente en pantallas de móvil si es muy largo */
+  line-height: 1.6; /* Le da una separación cómoda a las líneas */
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f5edf3;
+    background-color: #160d18;
+    line-height: 1.6;
+}
+
+/* Cabecera y navegación */
+header {
+    background-color: #09060b;
+    text-align: center;
+    padding: 25px 15px;
+    border-bottom: 3px solid #a51d52;
+}
+
+header h1 {
+    color: #f2b6d0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+nav {
+    background-color: #281329;
+    padding: 12px;
+    border-bottom: 1px solid #71304f;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #a84c76;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #a51d52;
+    color: #ffffff;
+}
+
+/* Contenido principal */
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #211522;
+    border: 1px solid #583047;
+    border-radius: 10px;
+}
+
+h1, h2, h3 {
+    color: #f2b6d0;
+    line-height: 1.25;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    border-bottom: 1px solid #a51d52;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+a {
+    color: #f2a8ca;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+strong {
+    color: #ffd1e3;
+}
+
+/* Imágenes, vídeos y figuras */
+img, video, iframe {
+    max-width: 100%;
+}
+
+img {
+    height: auto;
+    border-radius: 7px;
+}
+
+figure {
+    margin: 25px auto;
+    padding: 15px;
+    text-align: center;
+    background-color: #2d1b30;
+    border: 1px solid #75405c;
+    border-radius: 8px;
+}
+
+figcaption {
+    margin-top: 10px;
+    color: #e8bfd0;
+    font-size: 0.95em;
+}
+
+video, iframe {
+    display: block;
+    margin: 15px auto;
+    border: 1px solid #a84c76;
+    border-radius: 7px;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #2d1b30;
+}
+
+caption {
+    color: #f2b6d0;
+    font-weight: bold;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid #89516d;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #6f183e;
+    color: #ffffff;
+}
+
+/* Formularios */
+form {
+    max-width: 750px;
+    margin: 20px auto;
+}
+
+fieldset {
+    margin-bottom: 22px;
+    padding: 18px;
+    border: 1px solid #a84c76;
+    border-radius: 7px;
+}
+
+legend {
+    color: #f2b6d0;
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+label {
+    display: inline-block;
+    margin: 6px 0;
+}
+
+input, select, textarea {
+    max-width: 100%;
+    padding: 9px;
+    margin: 5px 0 12px;
+    color: #211522;
+    background-color: #fff5fa;
+    border: 1px solid #c77b9e;
+    border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"],
+input[type="range"] {
+    accent-color: #a51d52;
+}
+
+button, input[type="submit"], input[type="reset"] {
+    padding: 11px 18px;
+    margin: 8px 5px 8px 0;
+    color: #ffffff;
+    background-color: #8d1748;
+    border: 1px solid #e28bb1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #bd2c68;
+}
+
+/* Pie de página */
+footer {
+    padding: 22px;
+    text-align: center;
+    color: #e8bfd0;
+    background-color: #09060b;
+    border-top: 3px solid #a51d52;
+}
+
+/* Para pantallas pequeñas */
+@media (max-width: 600px) {
+    main {
+        width: 96%;
+        padding: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+    }
+}

@@ -1,0 +1,67 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0">
+
+    <channel>
+
+        <title>LA ORDEN - METRIKA</title>
+
+        <link>https://jezugarciia.github.io/Proyectodigitalizacion/</link>
+
+        <description>
+            Página web dedicada a METRIKA y su álbum LA ORDEN.
+        </description>
+
+        <language>es</language>
+
+        <item>
+            <title>Bienvenidos a LA ORDEN</title>
+
+            <link>https://jezugarciia.github.io/Proyectodigitalizacion/index.html</link>
+
+            <description>
+                Página principal del proyecto dedicado a METRIKA.
+            </description>
+
+        </item>
+
+        <item>
+            <title>Las partes del álbum</title>
+
+            <link>https://jezugarciia.github.io/Proyectodigitalizacion/blog.html</link>
+
+            <description>
+                Descubre las cinco partes del álbum LA ORDEN
+                y conoce sus canciones.
+            </description>
+
+        </item>
+
+        <item>
+            <title>Discografía de METRIKA</title>
+
+            <link>https://jezugarciia.github.io/Proyectodigitalizacion/tabla.html</link>
+
+            <description>
+                Consulta información sobre los trabajos musicales
+                de METRIKA.
+            </description>
+
+        </item>
+
+        <item>
+            <title>Galería de imágenes</title>
+
+            <link>https://jezugarciia.github.io/Proyectodigitalizacion/galeria.html</link>
+
+            <description>
+                Galería de imágenes relacionadas con METRIKA
+                y LA ORDEN.
+            </description>
+
+        </item>
+
+    </channel>
+
+</rss>
