@@ -42,8 +42,8 @@ Trabajo acerca del nuevo álbum de la cantante española Metrika, así como el a
 ## Dificultades encontradas
 Describe al menos tres dificultades reales:
 1. El documento xml daba error por una mala gestión de datos, tras ello, se volvió a realizar siguiendo las pautas necesarias.
-2. Segunda dificultad y cómo se resolvió.
-3. Tercera dificultad y cómo se resolvió.
+2. El audio descargado no funcionaba, por lo que se ha tenido que reducir su calidad.
+3. El video descargado era demasiado grande, se ha tenido que seleccionar otro más corto.
 ## Decisiones técnicas
 Explica brevemente:
 - Cómo has organizado los archivos.
