@@ -1,67 +1,37 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
-
 <rss version="2.0">
-
     <channel>
-
-        <title>LA ORDEN - METRIKA</title>
-
+        <title>La Orden</title>
         <link>https://jezugarciia.github.io/Proyectodigitalizacion/</link>
-
-        <description>
-            Página web dedicada a METRIKA y su álbum LA ORDEN.
-        </description>
-
+        <description>Página web de La Orden, orientada a la artista femenina española Metrika y a su nuevo álbum.</description>
         <language>es</language>
-
         <item>
-            <title>Bienvenidos a LA ORDEN</title>
-
-            <link>https://jezugarciia.github.io/Proyectodigitalizacion/index.html</link>
-
-            <description>
-                Página principal del proyecto dedicado a METRIKA.
-            </description>
-
+            <title>La Orden: Partes del álbum</title>
+            <link>https://jezugarciia.github.io/Proyectodigitalizacion/partesalbum.html</link>
+            <guid>https://jezugarciia.github.io/Proyectodigitalizacion/partesalbum.html</guid>
+            <pubdate>Wed, 11 Nov 2026 13:00:00 +0100</pubdate>
+            <description>Resumen breve de las partes del álbum, así como una explicación de cada canción.</description>
         </item>
-
         <item>
-            <title>Las partes del álbum</title>
-
-            <link>https://jezugarciia.github.io/Proyectodigitalizacion/blog.html</link>
-
-            <description>
-                Descubre las cinco partes del álbum LA ORDEN
-                y conoce sus canciones.
-            </description>
-
+            <title>La Orden: Vídeo y Galería</title>
+            <link>https://jezugarciia.github.io/Proyectodigitalizacion/video.html</link>
+            <guid>https://jezugarciia.github.io/Proyectodigitalizacion/video.html</guid>
+            <pubDate>Wed, 11 Nov 2026 13:00:00 +0100</pubDate>
+            <description>Resumen breve del vídeo y presentación de fotos de Metrika y de La Orden.</description>
         </item>
-
         <item>
-            <title>Discografía de METRIKA</title>
-
-            <link>https://jezugarciia.github.io/Proyectodigitalizacion/tabla.html</link>
-
-            <description>
-                Consulta información sobre los trabajos musicales
-                de METRIKA.
-            </description>
-
+            <title>La Orden: Inscripción</title>
+            <link>https://jezugarciia.github.io/Proyectodigitalizacion/inscripcion.html</link>
+            <guid>https://jezugarciia.github.io/Proyectodigitalizacion/inscripcion.html</guid>
+            <pubDate>Wed, 11 Nov 2026 13:00:00 +0100</pubDate>
+            <description>Formulario para la inscripción en el club de fans de Metrika.</description>
         </item>
-
         <item>
-            <title>Galería de imágenes</title>
-
-            <link>https://jezugarciia.github.io/Proyectodigitalizacion/galeria.html</link>
-
-            <description>
-                Galería de imágenes relacionadas con METRIKA
-                y LA ORDEN.
-            </description>
-
+            <title>La Orden: Recorrido Metrika</title>
+            <link>https://jezugarciia.github.io/Proyectodigitalizacion/recorrido.html</link>
+            <guid>https://jezugarciia.github.io/Proyectodigitalizacion/recorrido.html</guid>
+            <pubDate>Wed, 11 Nov 2026 13:00:00 +0100</pubDate>
+            <description>Recorrido musical de Metrika.</description>
         </item>
-
     </channel>
-
 </rss>

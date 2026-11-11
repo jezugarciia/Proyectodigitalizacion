@@ -1,8 +1,4 @@
-pre {
-  font-family: system-ui, -apple-system, sans-serif; /* Quita la fuente monoespaciada */
-  white-space: pre-wrap; /* Hace que el texto salte de línea automáticamente en pantallas de móvil si es muy largo */
-  line-height: 1.6; /* Le da una separación cómoda a las líneas */
-}
+
 * {
     box-sizing: border-box;
 }
